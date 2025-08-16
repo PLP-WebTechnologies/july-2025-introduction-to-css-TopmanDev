@@ -1,0 +1,66 @@
+/* Reset some default spacing */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fa08ce;
+    color: #e70c0c;;
+    padding: 20px;
+}
+
+/* Header */
+#main-header {
+    background: white;
+    color: #e70c0c;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Navigation */
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    padding: 8px 12px;
+    border: 2px solid #555;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.nav-list li a:hover {
+    background: #555;
+    color: white;
+}
+
+/* Content boxes (demonstrating box model) */
+.content-box {
+    background: white;
+    border: 2px solid #ccc;
+    padding: 15px;        /* inside spacing */
+    margin-bottom: 20px;  /* spacing between boxes */
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #555;
+}
